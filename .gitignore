@@ -1,1 +1,8 @@
+.vs
+bin
+Debug
 .local/
+/WebAppPoliMusicV2/WebAppPoliMusicV2.csproj.user
+/WebAppPoliMusicV2/PlaylistImages
+/WebAppPoliMusicV2/SongFiles
+/WebAppPoliMusicV2/UserImages
