@@ -1,0 +1,9 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="WebAppPoliMusicV3.SiteMaster" %>
+<!DOCTYPE html><html lang="es"><head runat="server"><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>PoliMusic · Alexis.Villareal</title><link href="~/Content/bootstrap.min.css" rel="stylesheet" runat="server"/><link href="~/Content/site.css" rel="stylesheet" runat="server"/><script src="Scripts/modernizr-2.8.3.js"></script></head>
+<body><form runat="server"><asp:ScriptManager runat="server" ID="sm" EnablePartialRendering="true"/>
+<header class="topbar"><a class="brand" href="Default">◉ <span>PoliMusic <small>Alexis.Villareal</small></span></a>
+<nav aria-label="Navegación principal"><a href="Default">Inicio</a><a href="Song">Canciones</a><a href="Logout">Cerrar sesión</a></nav></header>
+<main class="shell"><asp:ContentPlaceHolder ID="MainContent" runat="server"/></main>
+<footer class="shell foot">PoliMusic — Alexis.Villareal <span>Tu música, a tu ritmo.</span></footer>
+</form><script src="Scripts/jquery.min.js"></script><script src="Scripts/bootstrap.min.js"></script><script src="Scripts/site.js"></script></body></html>

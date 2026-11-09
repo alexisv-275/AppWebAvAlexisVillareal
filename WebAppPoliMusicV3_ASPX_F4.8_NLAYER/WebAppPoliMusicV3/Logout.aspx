@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Logout.aspx.cs" Inherits="WebAppPoliMusicV3.Logout" %><asp:Content ContentPlaceHolderID="MainContent" runat="server"/>

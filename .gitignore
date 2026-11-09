@@ -7,3 +7,15 @@ Debug
 /WebAppPoliMusicV2/SongFiles
 /WebAppPoliMusicV2/UserImages
 tools
+# Visual Studio / taller V3
+*.user
+**/.vs/
+**/packages/
+**/bin/
+**/obj/
+# Otros archivos locales de Visual Studio
+*.suo
+*.userosscache
+*.sln.docstates
+**/Release/
+**/TestResults/
